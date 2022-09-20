@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Interactivity</string>
+    <string name="football_players">Players</string>
+    <string name="find_team">Find Team</string>
+    <string-array name="football_teams">
+        <item>Barcelona</item>
+        <item>Real Madrid</item>
+        <item>Arsenal</item>
+        <item>Manchester United</item>
+        <item>Manchester City</item>
+        <item>PSG</item>
+    </string-array>
+</resources>
