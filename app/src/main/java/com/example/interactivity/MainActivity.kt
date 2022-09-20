@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /*Function to list players*/
     private fun getPlayers(selectedTeam: String): List<String> {
         return when (selectedTeam) {
             "Barcelona" -> listOf("Ousmane Dembele","Robert Lewandowski", "Pedri", "Ter Stegen")
@@ -41,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /*Function to return description*/
     private fun getTeamDescription(selectedTeam: String): String {
         return when (selectedTeam) {
             "Barcelona" -> "Futbol Club Barcelona commonly referred to as Barcelona and colloquially known as Barça is a professional football club based in Barcelona, Catalonia"
